@@ -46,31 +46,64 @@ export const learningModesProgress: LearningModeProgress[] = [
   }
 ];
 
-export const matchConnectMetrics: MatchConnectMetrics = {
-  dailyPlayers: 2500,
-  weeklyPlayers: 8900,
-  monthlyPlayers: 24500,
-  averageSessionTime: '12:30',
-  completionRate: 85.2,
+// Match Game Metrics
+export const matchGameMetrics = {
+  dailyPlayers: 3200,
+  weeklyPlayers: 10500,
+  monthlyPlayers: 28000,
+  averageSessionTime: "13:20",
+  completionRate: 87.6,
   difficultyDistribution: {
-    easy: 45,
-    medium: 35,
+    easy: 50,
+    medium: 30,
     hard: 20
   },
-  coinsDistributed: 375000,
+  coinsDistributed: 420000,
   playerRetention: {
-    day1: 92.5,
-    day7: 78.3,
-    day30: 65.8
+    day1: 93.4,
+    day7: 76.1,
+    day30: 62.8
   }
 };
 
-export const mahabharatWeeklyData = [
-  { day: 'Mon', matchConnect: 2200, learning: 1650, total: 3850 },
-  { day: 'Tue', matchConnect: 2400, learning: 1820, total: 4220 },
-  { day: 'Wed', matchConnect: 2100, learning: 1580, total: 3680 },
-  { day: 'Thu', matchConnect: 2600, learning: 1950, total: 4550 },
-  { day: 'Fri', matchConnect: 2800, learning: 2100, total: 4900 },
-  { day: 'Sat', matchConnect: 3200, learning: 2400, total: 5600 },
-  { day: 'Sun', matchConnect: 2900, learning: 2200, total: 5100 }
+// Connect Game Metrics
+export const connectGameMetrics = {
+  dailyPlayers: 2700,
+  weeklyPlayers: 9600,
+  monthlyPlayers: 25200,
+  averageSessionTime: "11:45",
+  completionRate: 82.3,
+  difficultyDistribution: {
+    easy: 40,
+    medium: 45,
+    hard: 15
+  },
+  coinsDistributed: 385000,
+  playerRetention: {
+    day1: 91.2,
+    day7: 73.8,
+    day30: 60.5
+  }
+};
+
+// Match Game Weekly Sessions Data
+export const matchGameWeeklyData = [
+  { day: "Mon", sessions: 450 },
+  { day: "Tue", sessions: 600 },
+  { day: "Wed", sessions: 700 },
+  { day: "Thu", sessions: 800 },
+  { day: "Fri", sessions: 1000 },
+  { day: "Sat", sessions: 1200 },
+  { day: "Sun", sessions: 1500 },
+];
+
+// Connect Game Weekly Sessions Data
+export const connectGameWeeklyData = [
+  { day: "Mon", sessions: 400 },
+  { day: "Tue", sessions: 580 },
+  { day: "Wed", sessions: 620 },
+  { day: "Thu", sessions: 700 },
+  { day: "Fri", sessions: 880 },
+  { day: "Sat", sessions: 1100 },
+  { day: "Sun", sessions: 1300 },
 ];
